@@ -237,6 +237,7 @@ namespace DeepNetwork
             Console.WriteLine("Eval train:" + app.Evaluate(trainDS));
             Console.WriteLine("Eval test:" + app.Evaluate(testDS));
             Console.WriteLine(app.Prediction(42, 1157, 335, 172, 83, 0.371f, 0.278f, 0.691f, 27.5f, 8, 4.1f, 2, -0.2f, -0.006f, -4.3f, -0.7f));
+            Console.WriteLine();
         }
     }
 }
